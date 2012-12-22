@@ -1,65 +1,17 @@
-Nihonkoku Kenpo
-===============
+日本国憲法
+==========
 
-Github Page : http://esehara.github.com/NihonkokuKenpo/
+00. 前文    00.markdown
+01. 第１条  01.markdown
+02. 第２条  02.markdown
+03. 第３条  03.markdown
+04. 第４条  04.markdown
+05. 第５条  05.markdown
+06. 第６条  06.markdown
+07. 第７条  07.markdown
+08. 第８条  08.markdown
+09. 第９条  09.markdown
+10. 第10条  10.markdown
+11. 第11条  11.markdown
 
-What is this?
--------------
-
-This is the THE CONSTITUTION OF JAPAN (Language : Japanese) Repository.
-
-
-Warning
--------
-
-This Repository was not made by any Goverment ( ex.Not Jimintou ) and is Personal.But, Everyone can use Freely ;).
-
-
-How do I this?
--------------- 
-
-使い方は特に考えていません。Gitの練習にどうぞ。
-
-About
------
-
-現在、フォルダは下の用に構成されています。
-
-* src
-* usr
-
-srcは、元の日本国憲法が入っているフォルダです。
-usrは他のGithubユーザーが作成した日本国憲法改正草案が入る予定です。
-
-
-Git
----
-
-使い方はGithubの使い方に準拠します。簡単な使い方としては、上のForkを使用して、自分のGitにCloneしましょう。
-
-    $ git clone git@github.com:YOUR_USERNAME/NihonkokuKenpo.git
-    $ git branch dev-YOURNAME-Kenpo
-    $ git checkout dev-YOURNAME-kenpo
-
-　上記のbranch、checkoutに関しては、 `checkout -b dev-YOURNAME-Kenpo` で代用が可能です。ここから改正案を作成していきます。もちろん、master配下でRewriteすることも可能ですが、できることならばあまりやらないほうがいいでしょう。Rewrite内容で、Branchを使用することを推奨します。ある程度、書き直しが進んだら、次のようにMergeします。
-
-    $ git checkout master
-    $ git merge dev-YOURNAME-Kenpo
-
-　これで、masterに、dev-YOURNAME-Kenpoで作った内容が反映されます。このような形で、自分の日本国憲法に書き直していきましょう。
-
-Pull Requestの方針について
---------------------------
-
-　Masterに対する、Pull Requestに関しては、`usr/YOURNAME/` のみに変更があった場合に、Mergeされます。
-
-　Master branchにおいて、srcは、記法及び表現において修正が認められるさいにおいてのみ、変更が行われます。srcを弄るような作りは想定していません。
-
-　しかし、GitらしくBranchを作りたい人たちに関しては、それらを保管する新しいBranchを作り、そこにMergeします。
-
-　例としては、 [自民党改正案](https://github.com/esehara/NihonkokuKenpo/tree/Jimintou) のbranchを参考にしてみてください。
-　
-License
--------
-Public Domain :) Haha.
-　
+Licensed under the terms of the [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/)
